@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language>
+  <text>
+    <key>#gamename#</key>
+    <value>Fenrir</value>
+  </text>
+  <text>
+    <key>#loading#</key>
+    <value>Lade ..</value>
+  </text>
+  <text>
+    <key>#mainmenu_newgame#</key>
+    <value>Neues Spiel</value>
+  </text>
+  <text>
+    <key>#mainmenu_options#</key>
+    <value>Optionen</value>
+  </text>
+  <text>
+    <key>#mainmenu_exit#</key>
+    <value>Beenden</value>
+  </text>
+  <text>
+    <key>#optionmenu_language#</key>
+    <value>Sprache</value>
+  </text>
+  <text>
+    <key>#optionmenu_resolution#</key>
+    <value>Auflösung</value>
+  </text>
+  <text>
+    <key>#optionmenu_fullscreen#</key>
+    <value>Vollbild</value>
+  </text>
+  <text>
+    <key>#optionmenu_apply#</key>
+    <value>Übernehmen</value>
+  </text>
+  <text>
+    <key>#optionmenu_back#</key>
+    <value>Zurück</value>
+  </text>
+  <text>
+    <key>#enabled#</key>
+    <value>Aktiv</value>
+  </text>
+  <text>
+    <key>#disabled#</key>
+    <value>Deaktiviert</value>
+  </text>
+</language>

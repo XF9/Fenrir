@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8A48CA54-A676-4FA5-9E8A-9F29F25C03CF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Fenrir</RootNamespace>
+    <AssemblyName>Fenrir</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Windows\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Windows\Release\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Game1.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Src\FenrirGame.cs" />
+    <Compile Include="Src\Helper\Config.cs" />
+    <Compile Include="Src\Helper\GameState.cs" />
+    <Compile Include="Src\Helper\Renderer.cs" />
+    <Compile Include="Src\Helper\UI\Alignment\Horizontal.cs" />
+    <Compile Include="Src\Helper\UI\Element.cs" />
+    <Compile Include="Src\InGame\Components\HUD\InfoPanel.cs" />
+    <Compile Include="Src\InGame\Components\HUD\ToolBar.cs" />
+    <Compile Include="Src\InGame\Entities\Caves\LargeCave.cs" />
+    <Compile Include="Src\InGame\Entities\Caves\MediumCave.cs" />
+    <Compile Include="Src\InGame\Entities\Caves\SmallCave.cs" />
+    <Compile Include="Src\InGame\Entities\Items\Item.cs" />
+    <Compile Include="Src\InGame\Entities\Units\StatsPanel.cs" />
+    <Compile Include="Src\LoadingScreen\LoadGame.cs" />
+    <Compile Include="Src\LoadingScreen\LoadingScreen.cs" />
+    <Compile Include="Src\LoadingScreen\LoadMenu.cs" />
+    <Compile Include="Src\Menu\Header.cs" />
+    <Compile Include="Src\Menu\MainMenu.cs" />
+    <Compile Include="Src\Helper\UI\Alignment\Vertical.cs" />
+    <Compile Include="Src\Helper\UI\Button.cs" />
+    <Compile Include="Src\Helper\UI\Image.cs" />
+    <Compile Include="Src\Helper\UI\ImageButton.cs" />
+    <Compile Include="Src\Helper\UI\Label.cs" />
+    <Compile Include="Src\Helper\UI\SelectionList.cs" />
+    <Compile Include="Src\Helper\UI\TextButton.cs" />
+    <Compile Include="Src\Helper\Cursor.cs" />
+    <Compile Include="Src\Helper\GameProperties.cs" />
+    <Compile Include="Src\Helper\InputHandler.cs" />
+    <Compile Include="Src\InGame\Components\Camera.cs" />
+    <Compile Include="Src\InGame\Components\HUD\Hud.cs" />
+    <Compile Include="Src\Helper\UI\Group.cs" />
+    <Compile Include="Src\InGame\Components\Scene.cs" />
+    <Compile Include="Src\InGame\Components\SceneProperties.cs" />
+    <Compile Include="Src\Helper\ContentManager.cs" />
+    <Compile Include="Src\InGame\ControlModeHandler\BuildTunnelHandler.cs" />
+    <Compile Include="Src\InGame\ControlModeHandler\BuildCaveHandler.cs" />
+    <Compile Include="Src\InGame\ControlModeHandler\ClearTunnelHandler.cs" />
+    <Compile Include="Src\InGame\Entities\Block.cs" />
+    <Compile Include="Src\InGame\Entities\Caves\Cave.cs" />
+    <Compile Include="Src\InGame\Entities\Caves\CaveBlueprint.cs" />
+    <Compile Include="Src\InGame\Entities\Building.cs" />
+    <Compile Include="Src\InGame\Entities\Entity.cs" />
+    <Compile Include="Src\InGame\Entities\Marker.cs" />
+    <Compile Include="Src\InGame\Entities\Units\Stats.cs" />
+    <Compile Include="Src\InGame\Entities\Units\Task.cs" />
+    <Compile Include="Src\InGame\Entities\Units\Tasks\TaskMine.cs" />
+    <Compile Include="Src\InGame\Entities\Units\Tasks\TaskMove.cs" />
+    <Compile Include="Src\InGame\Entities\Units\Unit.cs" />
+    <Compile Include="Src\InGame\ComponentManager.cs" />
+    <Compile Include="Src\InGame\ControlModeHandler\IModeHandler.cs" />
+    <Compile Include="Src\InGame\ControlModeHandler\UnitHandler.cs" />
+    <Compile Include="Src\Helper\DataIdentifier.cs" />
+    <Compile Include="Src\Menu\MainMenuItems.cs" />
+    <Compile Include="Src\Menu\OptionMenuItems.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\config.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Locale\English\ingame.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Locale\English\main_menu.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Content\Locale\Deutsch\ingame.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Locale\Deutsch\main_menu.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Texture\Cursor\camera.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Texture\Cursor\Default.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Texture\Icons\Cave_large.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Texture\Icons\Cave_large_hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Texture\Icons\Cave_medium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Texture\Icons\Cave_medium_hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Texture\Icons\Cave_small.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Texture\Icons\Cave_small_hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Texture\Icons\Tunnel.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Texture\Icons\Tunnel_hover.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Texture\MainMenu\Background.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Texture\MainMenu\Title.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Texture\PauseMenu\Background.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Content\Font\Trade_Winds_Large.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Font\Trade_Winds_Regular.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Font\Trade_Winds_Small.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Model\Buildings\Campfire\campfire.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Model\Buildings\Campfire\campfire_0.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Model\Entities\Block.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Model\Caves\largeCave.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Model\Overlays\Marker.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Model\Overlays\marker_0.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Model\Caves\mediumCave.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Model\Entities\Player.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Model\Entities\Player_0.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Model\Caves\smallCave.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Model\World\Startlocation.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Shader\main_shader.mgfxo">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

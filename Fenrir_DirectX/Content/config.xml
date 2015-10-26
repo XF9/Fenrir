@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<game>
+  <video>
+    <resolutionX>1280</resolutionX>
+    <resolutionY>720</resolutionY>
+    <windowmode>0</windowmode>
+  </video>
+  <language>English</language>
+</game>

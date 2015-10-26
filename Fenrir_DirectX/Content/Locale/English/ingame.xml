@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language>
+  <text>
+    <key>#hud_menu#</key>
+    <value>Menu</value>
+  </text>
+  <text>
+    <key>#hud_build_tunnel#</key>
+    <value>Tunnel</value>
+  </text>
+  <text>
+    <key>#hud_build_cave_small#</key>
+    <value>Small Cave</value>
+  </text>
+  <text>
+    <key>#hud_build_cave_medium#</key>
+    <value>Medium Cave</value>
+  </text>
+  <text>
+    <key>#hud_build_cave_large#</key>
+    <value>Large Cave</value>
+  </text>
+  <text>
+    <key>#hud_clear_tunnel#</key>
+    <value>Clear</value>
+  </text>
+  <text>
+    <key>#hud_resume#</key>
+    <value>Resume</value>
+  </text>
+  <text>
+    <key>#hud_exit#</key>
+    <value>Quit</value>
+  </text>
+  <text>
+    <key>#unit_name#</key>
+    <value>Name</value>
+  </text>
+  <text>
+    <key>#unit_age#</key>
+    <value>Age</value>
+  </text>
+  <text>
+    <key>#unit_hunger#</key>
+    <value>Hunger</value>
+  </text>
+  <text>
+    <key>#unit_mining#</key>
+    <value>Mining</value>
+  </text>
+  <text>
+    <key>#unit_construction#</key>
+    <value>Building</value>
+  </text>
+  <text>
+    <key>#unit_fighting#</key>
+    <value>Fighting</value>
+  </text>
+  <text>
+    <key>#unit_wisdom#</key>
+    <value>Wisdom</value>
+  </text>
+  <text>
+    <key>#unit_cooking#</key>
+    <value>Cooking</value>
+  </text>
+</language>

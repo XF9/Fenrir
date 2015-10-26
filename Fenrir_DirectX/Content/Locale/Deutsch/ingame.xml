@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language>
+  <text>
+    <key>#hud_menu#</key>
+    <value>Menü</value>
+  </text>
+  <text>
+    <key>#hud_build_tunnel#</key>
+    <value>Tunnel</value>
+  </text>
+  <text>
+    <key>#hud_build_cave_small#</key>
+    <value>Kleine Höhle</value>
+  </text>
+  <text>
+    <key>#hud_build_cave_medium#</key>
+    <value>Mittlere Höhle</value>
+  </text>
+  <text>
+    <key>#hud_build_cave_large#</key>
+    <value>Große Höhle</value>
+  </text>
+  <text>
+    <key>#hud_clear_tunnel#</key>
+    <value>Löschen</value>
+  </text>
+  <text>
+    <key>#hud_resume#</key>
+    <value>Weiter</value>
+  </text>
+  <text>
+    <key>#hud_exit#</key>
+    <value>Beenden</value>
+  </text>
+  <text>
+    <key>#unit_name#</key>
+    <value>Name</value>
+  </text>
+  <text>
+    <key>#unit_age#</key>
+    <value>Alter</value>
+  </text>
+  <text>
+    <key>#unit_hunger#</key>
+    <value>Hunger</value>
+  </text>
+  <text>
+    <key>#unit_mining#</key>
+    <value>Graben</value>
+  </text>
+  <text>
+    <key>#unit_construction#</key>
+    <value>Bauen</value>
+  </text>
+  <text>
+    <key>#unit_fighting#</key>
+    <value>Kämpfen</value>
+  </text>
+  <text>
+    <key>#unit_wisdom#</key>
+    <value>Wissen</value>
+  </text>
+  <text>
+    <key>#unit_cooking#</key>
+    <value>Kochen</value>
+  </text>
+</language>

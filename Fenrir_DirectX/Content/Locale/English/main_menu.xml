@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<language>
+  <text>
+    <key>#gamename#</key>
+    <value>Fenrir</value>
+  </text>
+  <text>
+    <key>#loading#</key>
+    <value>Loading ..</value>
+  </text>
+  <text>
+    <key>#mainmenu_newgame#</key>
+    <value>New Game</value>
+  </text>
+  <text>
+    <key>#mainmenu_options#</key>
+    <value>Options</value>
+  </text>
+  <text>
+    <key>#mainmenu_exit#</key>
+    <value>Quit</value>
+  </text>
+  <text>
+    <key>#optionmenu_language#</key>
+    <value>Language</value>
+  </text>
+  <text>
+    <key>#optionmenu_resolution#</key>
+    <value>Resolution</value>
+  </text>
+  <text>
+    <key>#optionmenu_windowmode#</key>
+    <value>Windowmode</value>
+  </text>
+  <text>
+    <key>#optionmenu_window_fullscreen#</key>
+    <value>Fullscreen</value>
+  </text>
+  <text>
+    <key>#optionmenu_window_borderless#</key>
+    <value>Borderless</value>
+  </text>
+  <text>
+    <key>#optionmenu_window_windowed#</key>
+    <value>Windowed</value>
+  </text>
+  <text>
+    <key>#apply#</key>
+    <value>Apply</value>
+  </text>
+  <text>
+    <key>#back#</key>
+    <value>Back</value>
+  </text>
+</language>
